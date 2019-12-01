@@ -11,6 +11,8 @@ Several days ago, my Operating System class assigned a lab, [to write a concurre
 
 The epoll API monitors multiple file descriptors to see if I/O is possible on any of them. To understand epoll, I recommend [this post](<https://medium.com/@copyconstruct/the-method-to-epolls-madness-d9d2d6378642>), a well-written article that explains low-level details of epoll thoroughly and differentiates between level-triggered and edge-triggered mode.
 
+> Note: As mentioned above, this post just document some **pitfalls** while using epoll. So it assumes that you had some basic knowledge about epoll or even have started to work on it. The [post](https://medium.com/@copyconstruct/the-method-to-epolls-madness-d9d2d6378642) and doc will be helpful if you didn't. The root of this post is based on the fact that, even if you have understood epoll, it's still error-prone.
+
 ## Use thread pool
 
 Before taking epoll into consideration, to improve performance and throughput of your web server, you have to utilize your multicore processor. Using `fork` requires little work. But it's better to use Posix Thread. And as creating a thread every time a request comes is not negligible, creating a thread pool while initializing the server is a sensible choice.
@@ -193,7 +195,7 @@ When I was thinking on whether to implement a hashmap myself or using C++, I fou
 
 - Use `sendfile` to prevent kernel space to user space copy while sending data to client. It will significantly improve your throughput.
 - I only implement `GET` method on the server.
-- Remember to write exception handling. It can also help you while debugging.
+- Remember to write exception handling. It can also save you a lot of time while debugging.
 
 ## Load test
 
