@@ -50,3 +50,4 @@ Utilization rate in descending order:
 
 - China National Scholarship, 2018
 - First prize (*top one of hundreds of teams*), Optimization Track of PAC 2018 (*Parallel Apllication Challenge*, hosted by CCF and intel, one of the most famous event in HPC field of China)
+- iGEM 2019 Gold Medal and Best Software Nomination
