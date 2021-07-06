@@ -11,7 +11,7 @@ import pdb; pdb.set_trace()
 
 另外，请大家真的不要在这样写代码了：
 
-![vtable]({{ '/assets/img/posts/nni_bug.png' | relative_url }})
+![nni_bug]({{ '/assets/img/posts/nni_bug.png' | relative_url }})
 
 （它浪费了我整整一个晚上去 de
 
