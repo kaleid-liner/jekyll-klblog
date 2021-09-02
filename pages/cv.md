@@ -7,7 +7,7 @@ hide: true
 
 ### Profile
 
-I'm a sophomore at the Department of Computer Science and Technology at USTC (University of Science and Technology of China). I have great interests in various fields of CS, e.g., high performance computing, operating systems, web back-end development, and so on. 
+I'm a USTC-MSRA joint PhD. I have great interests in various fields of CS, e.g., high performance computing, operating systems, web back-end development, and so on. I now mainly research in edge device computating acceleration.
 
 I am always eager to embrace new technologies, and love to overcome challenge while digging into problems. I love coding. Welcome to follow me on [Github](<https://github.com/kaleid-liner>).
 
@@ -43,8 +43,11 @@ Utilization rate in descending order:
 
 ### Education
 
-- **2017 ~ present**
+- **2017 ~ 2021**
   School of Computer Science and Technology, University of Science and Technology of China
+
+- **2021 ~ Present**
+  USTC-MSRA joint PhD project
 
 ### Honors and Awards
 
